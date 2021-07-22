@@ -13,7 +13,7 @@
 #define enter		'\r'
 #define delete		'\177'	 // 八进制表示字符,十六进制为'\x7f'
 
-/* 以上不可见字符一律定义为0 */
+/* 以下不可见字符一律定义为0 */
 #define char_invisible	0
 #define ctrl_l_char	char_invisible
 #define ctrl_r_char	char_invisible
